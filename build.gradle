@@ -4,9 +4,10 @@ plugins {
     alias(libs.plugins.android.library) apply false
 }
 
+// ✅ Global configs (kept same)
 ext {
     compileSdkVersion = 35
-    targetSdkVersion = 35 
+    targetSdkVersion = 35
     minSdk = 21
     versionCode = 400
     versionName = "4.0.0"
